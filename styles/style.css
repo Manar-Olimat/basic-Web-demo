@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+header{
+    position: sticky;
+    top: 0px;
+        left: 10px;
+}
+#sticky{
+    background-color: blueviolet;
+    position:sticky;
+    top: 105px;
+    left: 10px;
+   
+
+}
+#notSticky{
+    position: static;
+    top: 50px;
+}
+
+
+#headerDiv{
+       box-sizing: border-box;
+ width: 100%;
+  
+  border: solid #5B6DCD 10px;
+padding: 5px;
+background-color: whitesmoke;
+
+}
+
+.navBar {
+    display: inline;
+   
+}
+
+#logo {
+    width: 10ex;
+    height: 10ex;
+    margin-left: 50px;
+
+}
+
+header hr {
+    margin-top: 5ex;
+    border: 10px solid rgba(0, 149, 255, 0.781);
+    border-radius: 5px;
+
+}
+
+#headers li {
+    color: black;
+    font-weight: bold;
+    display: inline;
+    margin: 5ex;
+}
+
+#searchForm {
+    margin-left: 90ex;
+}
+
+.welcomingStatement {
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: center;
+    font-family: monospace;
+    font-size: 48px;
+
+}
+
+
+
+#mainDisplayImg {
+    text-align: center;
+    
+}
+
+
+#mainDisplayImg img {
+    display: inline;
+    margin-left: 5ex;
+    margin-top: 7ex;
+    width: 300px;
+    height: 400px;
+}
+#topBooks ol li{
+    list-style: lower-greek;
+    
+}
+#topBooks{
+    
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    font-family: monospace;
+    font-size: 33px;
+    
+}
+#suggestedBooks{
+    margin-left: 25ex;
+    margin-top: 3ex;
+    margin-bottom: 3ex;
+text-align: center;  
+font-size: 30pt; 
+}
+
+#suggestForUs{
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    font-family: monospace;
+    font-size: 33px;
+}
+label{
+    font-size: 25px;
+
+}
+
+#contact{
+    background-color: rgb(5, 246, 254);
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
